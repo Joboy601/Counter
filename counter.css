@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    color: white;
+    border-radius:10px;
+    border: none;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.increase{
+    background-color: green;
+}
+.decrease{
+    background-color: red;
+}
+.reset{
+    background-color: blue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 60px;
+    color: green;
+
+}
+.inc,.reset{
+    margin-right: 10px;
+}
